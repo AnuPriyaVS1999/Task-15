@@ -193,21 +193,64 @@ div.nav_section div.contact div.number_section ul li a {
 }
 div.nav_section h2 {
 }
-header div.bottom{
+header div.bottom {
     display: flex;
     justify-content: space-between;
 }
-header div.bottom div.middle ul{
+header div.bottom div.middle ul {
     display: flex;
 }
-header div.bottom div.middle ul li{
+header div.bottom div.middle ul li {
     margin-right: 5px;
 }
-header div.bottom div.middle ul li:last-child{
-    margin-right: 0x; 
+header div.bottom div.middle ul li:last-child {
+    margin-right: 0x;
 }
-#spotlight{
+#spotlight {
     background-image: url(../images/Landing-Background.jpg);
-    height: 300px;
-    background-size: cover;
+
+    height: 500px;
+}
+
+#spotlight .left {
+}
+
+#spotlight .left h1 {
+   font-size: 15px;
+
+}
+
+#spotlight .left h2 {
+    font-size: ;
+}
+
+#spotlight .left h3 {
+}
+
+#spotlight .left p {
+}
+
+#spotlight .left .button {
+}
+
+#spotlight .left_1 {
+    display: flex;
+}
+
+#spotlight .left_1 .langing {
+}
+
+#spotlight .left_1 .langing img {
+}
+
+#spotlight .left_1 .right {
+}
+
+#spotlight .left_1 .right .langing {
+}
+
+#spotlight .left_1 .right .langing img {
+}
+
+#spotlight .left_1 .right h1 {
 }
