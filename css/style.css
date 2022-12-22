@@ -86,12 +86,11 @@ br.clear {
     justify-content: space-between;
 }
 @font-face {
-    font-family: 'island_momentsregular';
-    src: url('../fonts/islandmoments-regular-webfont.woff2') format('woff2'),
-         url('../fonts/islandmoments-regular-webfont.woff') format('woff');
+    font-family: "island_momentsregular";
+    src: url("../fonts/islandmoments-regular-webfont.woff2") format("woff2"),
+        url("../fonts/islandmoments-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -202,6 +201,7 @@ div.nav_section div.contact div.number_section ul li a {
 div.nav_section h2 {
 }
 header div.bottom {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -227,7 +227,6 @@ header div.bottom div.middle ul li:last-child {
 }
 #spotlight div.container div.leftleft {
     width: 60%;
-    margin-top: 100px;
 }
 
 #spotlight div.container div.left {
@@ -247,7 +246,7 @@ header div.bottom div.middle ul li:last-child {
 #spotlight div.container div.left h1 {
     font-family: "Island Moments";
     color: #5ca26e;
-    font-family: 'island_momentsregular';  
+    font-family: "island_momentsregular";
     font-size: 26px;
 }
 #spotlight div.container div.left h2 {
@@ -284,12 +283,14 @@ header div.bottom div.middle ul li:last-child {
 #spotlight div.container div.left a.button {
     background-color: #539d72;
     color: #fff;
-    padding: 20px 35px;
+    padding: 14px 35px;
+    display: inline-block;
+    margin-bottom: 35px;
     font-size: 17px;
 }
 #spotlight div.container div.right {
     position: relative;
-    width: 40%;
+    width: 36%;
     /* margin-left: 100px; */
 }
 #spotlight div.container div.right div.landing_page {
@@ -298,14 +299,14 @@ header div.bottom div.middle ul li:last-child {
 #spotlight div.container div.right div.landing_page img {
     display: block;
     width: 100%;
-    height: 600px;
+    height: 508GITpx;
 }
 #spotlight div.container div.right h1 {
     position: absolute;
     color: #ffe085;
     top: 26px;
-    font-size: 71px;
-    width: 80%;
+    font-size: 46px;
+    width: 65%;
     left: 80px;
     font-weight: 600;
 }
@@ -426,12 +427,26 @@ header div.bottom div.middle ul li:last-child {
     font-weight: 500;
 }
 
-#sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+#sale_Offer
+    div.container
+    div.left
+    ul
+    li:first-child
+    div.content
+    div.heading
+    h3 {
     font-size: 30px;
     color: #fff;
 }
 
-#sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+#sale_Offer
+    div.container
+    div.left
+    ul
+    li:nth-child(3)
+    div.content
+    div.heading
+    h3 {
     font-size: 24px;
 }
 
@@ -446,7 +461,14 @@ header div.bottom div.middle ul li:last-child {
     color: #fff;
 }
 
-#sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+#sale_Offer
+    div.container
+    div.left
+    ul
+    li:nth-child(3)
+    div.content
+    div.heading
+    p {
     font-size: 24px;
 }
 
@@ -893,4 +915,3 @@ header div.bottom div.middle ul li:last-child {
     color: #fff;
     font-size: 17px;
 }
-
