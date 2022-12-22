@@ -85,6 +85,14 @@ br.clear {
     display: flex;
     justify-content: space-between;
 }
+@font-face {
+    font-family: 'island_momentsregular';
+    src: url('../fonts/islandmoments-regular-webfont.woff2') format('woff2'),
+         url('../fonts/islandmoments-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     font-family: "Roboto";
@@ -208,49 +216,449 @@ header div.bottom div.middle ul li:last-child {
 }
 #spotlight {
     background-image: url(../images/Landing-Background.jpg);
-
-    height: 500px;
+    background-size: cover;
+    padding: 80px 80px 80px;
 }
 
-#spotlight .left {
-}
-
-#spotlight .left h1 {
-   font-size: 15px;
-
-}
-
-#spotlight .left h2 {
-    font-size: ;
-}
-
-#spotlight .left h3 {
-}
-
-#spotlight .left p {
-}
-
-#spotlight .left .button {
-}
-
-#spotlight .left_1 {
+#spotlight div.container {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#spotlight div.container div.leftleft {
+    width: 60%;
+    margin-top: 100px;
 }
 
-#spotlight .left_1 .langing {
+#spotlight div.container div.left {
+    background-image: url(../images/Landing-img-1.jpg);
+    /* background-repeat: no-repeat; */
+    /* height: 48vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-position-x: 20;
+    background-position-x: -256px;
+    background-position-y: 6px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+#spotlight div.container div.left h1 {
+    font-family: "Island Moments";
+    color: #5ca26e;
+    font-family: 'island_momentsregular';  
+    font-size: 26px;
+}
+#spotlight div.container div.left h2 {
+    color: #000;
+    font-size: 70px;
+    font-weight: 600;
+}
+#spotlight div.container div.left span {
+    /* border-bottom: 1px solid #539d72; */
+}
+#spotlight div.container div.left h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 60px;
+    position: relative;
+    padding-left: 111px;
+}
+#spotlight div.container div.left h3::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 2px;
+    height: 5px;
+    width: 100px;
+    background: #539d72;
+}
+#spotlight div.container div.left p {
+    width: 44%;
+    margin-top: 20px;
+    color: #8e8e8e;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+#spotlight div.container div.left a.button {
+    background-color: #539d72;
+    color: #fff;
+    padding: 20px 35px;
+    font-size: 17px;
+}
+#spotlight div.container div.right {
+    position: relative;
+    width: 40%;
+    /* margin-left: 100px; */
+}
+#spotlight div.container div.right div.landing_page {
+    width: 100%;
+}
+#spotlight div.container div.right div.landing_page img {
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+#spotlight div.container div.right h1 {
+    position: absolute;
+    color: #ffe085;
+    top: 26px;
+    font-size: 71px;
+    width: 80%;
+    left: 80px;
+    font-weight: 600;
 }
 
-#spotlight .left_1 .langing img {
+#category {
+    padding-top: 100px;
 }
 
-#spotlight .left_1 .right {
+#category div.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#category div.heading div.left {
+    padding: 10px;
+    border-left: 3px solid #000;
+}
+#category div.heading div.left h1 {
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    /* margin-bottom: 60px; */
+}
+#category div.heading div.right {
+}
+#category div.heading div.right h2 {
+    color: #5ca26e;
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+#category section.categorys {
+    padding: 0 30px;
+}
+#category section.categorys ul {
+    display: flex;
+    justify-content: space-between;
+}
+#category section.categorys ul li {
+}
+#category section.categorys ul li a {
+    width: 100px;
+    display: inline-block;
+}
+#category section.categorys ul li a img {
+    width: 100%;
+    display: block;
+}
+#category h5 {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
 }
 
-#spotlight .left_1 .right .langing {
+#sale_Offer {
+    /* height: 100vh; */
+    padding: 70px 0px;
 }
 
-#spotlight .left_1 .right .langing img {
+#sale_Offer div.container {
+    display: flex;
+    justify-content: space-between;
 }
 
-#spotlight .left_1 .right h1 {
+#sale_Offer div.container div.left {
+    width: 68%;
+}
+
+#sale_Offer div.container div.left ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sale_Offer div.container div.left ul li:first-child {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#sale_Offer div.container div.left ul li {
+    display: inline-block;
+    width: 49%;
+    height: 390px;
+    position: relative;
+}
+
+#sale_Offer div.container div.left ul li > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#sale_Offer div.container div.left ul li > a img {
+    width: 100%;
+    height: 100%;
+}
+
+#sale_Offer div.container div.left ul li div.content {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sale_Offer div.container div.left ul li:nth-child(2) div.content {
+    justify-content: space-around;
+}
+
+#sale_Offer div.container div.left ul li div.content div.heading h3 {
+    font-size: 26px;
+    color: #000;
+    font-weight: 500;
+}
+
+#sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+#sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+    font-size: 24px;
+}
+
+#sale_Offer div.container div.left ul li div.content div.heading p {
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+}
+
+#sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+    font-size: 30px;
+    color: #fff;
+}
+
+#sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+    font-size: 24px;
+}
+
+#sale_Offer div.container div.left ul li div.content div.rupees {
+    color: #fff;
+}
+
+#sale_Offer div.container div.left ul li div.content div.rupees > span {
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+#sale_Offer div.container div.left ul li div.content > span {
+    font-size: 51px;
+    color: #cb1a1a;
+}
+
+#sale_Offer div.container div.left ul li div.content > span > small {
+    font-size: 20px;
+}
+
+#sale_Offer div.container div.left ul li div.content > a.button {
+    text-align: center;
+    width: 60%;
+    padding: 19px 8px;
+    color: #8e8e8e;
+    font-size: 17px;
+}
+
+#sale_Offer div.container div.left ul li:first-child div.content > a.button {
+    text-align: center;
+    width: 30%;
+    padding: 20px 45px;
+    background: #fff;
+    color: #8e8e8e;
+    font-size: 17px;
+}
+
+#sale_Offer div.container div.left ul li div.offer_Tag {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    background-color: #fff;
+    height: 30%;
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#sale_Offer div.container div.left ul li div.offer_Tag h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#sale_Offer div.container div.left ul li div.offer_Tag small {
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+#sale_Offer div.container div.right {
+    width: 30%;
+    position: relative;
+}
+
+#sale_Offer div.container div.right div.img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+#sale_Offer div.container div.right div.img img {
+    height: 100%;
+    width: 100%;
+}
+
+#sale_Offer div.container div.right div.content {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sale_Offer div.container div.right div.content h4 {
+    font-size: 29px;
+}
+
+#sale_Offer div.container div.right div.content p {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+#sale_Offer div.container div.right div.content span {
+    color: #8e8e8e;
+    font-size: 18px;
+}
+
+#our_products {
+    padding: 75px 0px;
+}
+#our_products section.content {
+}
+#our_products section.content div.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#our_products section.content div.top div.left {
+    border-left: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+#our_products section.content div.top div.left h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+#our_products section.content div.top nav.right {
+    width: 30%;
+}
+#our_products section.content div.top nav.right ul {
+    display: flex;
+    justify-content: space-between;
+}
+#our_products section.content div.top nav.right ul li {
+}
+#our_products section.content div.top nav.right ul li a {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+#our_products section.content div.bottom {
+}
+#our_products section.content div.bottom ul.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#our_products section.content div.bottom > ul.main > li {
+    width: 18%;
+    height: 280px;
+    padding: 50px 10px;
+    background: rgba(236, 236, 236, 0.322);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+#our_products section.content div.bottom > ul.main > li div.stock {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+}
+#our_products section.content div.bottom > ul.main > li div.stock span {
+    padding: 13px 15px;
+    border-radius: 30px;
+    display: block;
+    background: #a6a6a6;
+    font-weight: 600;
+    color: #fff;
+    font-size: 17px;
+}
+#our_products section.content div.bottom > ul.main > li div.tag {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+}
+#our_products section.content div.bottom > ul.main > li div.tag span {
+    padding: 13px 25px;
+    border-radius: 30px;
+    display: block;
+    background: #cc1a1a;
+    font-weight: 600;
+    color: #fff;
+    font-size: 17px;
+}
+#our_products section.content div.bottom > ul.main > li div.img {
+    width: 65%;
+    margin: 0px auto 30px;
+}
+#our_products section.content div.bottom > ul.main > li div.img img {
+    display: block;
+    width: 100%;
+}
+#our_products section.content div.bottom > ul.main > li h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+#our_products section.content div.bottom > ul.main > li ul.star {
+    display: flex;
+    justify-content: center;
+}
+#our_products section.content div.bottom > ul.main > li ul.star li {
+    width: 6%;
+}
+#our_products section.content div.bottom > ul.main > li ul.star li img {
+    display: block;
+    width: 100%;
+}
+#our_products section.content div.bottom > ul.main > li span {
+    display: block;
+    text-align: center;
+    color: rgb(142, 142, 142);
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 600;
 }
