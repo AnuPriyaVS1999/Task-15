@@ -1134,3 +1134,46 @@ header div.bottom div.middle ul li:last-child {
         width: 50%;
     }
 }
+@media all and (max-width:980px){
+    #our_products section.content div.top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    #category h5 {      
+        font-size: 12px;     
+    }
+    #our_products section.content div.bottom > ul.main > li div.stock span {
+
+        font-size: 14px;
+    }
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 12px;
+    }
+    #testimonial section.content div.main {
+        width: 100%;
+    }
+    #best_seller section.content div.bottom ul.main > li div.stock span {
+        font-size: 13px;
+    }
+    #brand ul li a {
+        width: 84px;
+    }
+    #order .first_order div.left {
+        width: 78%;
+    }
+    #order .first_order div.left h1 {
+        width: 80%;
+
+    }
+    #order {
+        padding: 0;
+    }
+
+    #footer {
+        padding: 60px 0;
+    }
+}
+
+
