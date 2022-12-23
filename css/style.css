@@ -155,18 +155,8 @@ div.nav_section div.contact {
 div.nav_section div.contact div.section {
     display: flex;
 }
-div.nav_section div.contact div.email_section {
-    display: flex;
-    align-items: center;
-}
 div.nav_section div.contact div.section div.image {
     margin-right: 15px;
-}
-div.nav_section div.contact div.section div.image img {
-}
-div.nav_section div.contact div.email_section ul {
-}
-div.nav_section div.contact div.email_section ul li {
 }
 div.nav_section div.contact div ul li a {
     color: #8e8e8e;
@@ -189,24 +179,12 @@ div.nav_section div.contact div.location_section div.email_image img {
 div.nav_section div.contact div ul {
     margin-right: 25px;
 }
-div.nav_section div.contact div.location_section ul li {
-}
-div.nav_section div.contact div.location_section ul li a {
-}
 div.nav_section div.contact div.number_section {
     align-items: center;
     display: flex;
 }
 div.nav_section div.contact div.number_section div.email_image {
     margin-right: 15px;
-}
-div.nav_section div.contact div.number_section div.email_image img {
-}
-div.nav_section div.contact div.number_section ul {
-}
-div.nav_section div.contact div.number_section ul li {
-}
-div.nav_section div.contact div.number_section ul li a {
 }
 div.nav_section h2 {
     font-size: 15px;
@@ -227,6 +205,9 @@ header div.bottom div.middle ul li {
     color: #fff;
     font-weight: bold;
 }
+header div.bottom div.middle ul li.home {
+    border-top:1px solid #000;
+}
 header div.bottom div.right ul {
     display: flex;
 }
@@ -240,6 +221,7 @@ header div.bottom div.middle ul li:last-child {
     background-image: url(../images/Landing-Background.jpg);
     background-size: cover;
     padding: 80px 80px 80px;
+   
 }
 
 #spotlight div.container {
@@ -275,9 +257,7 @@ header div.bottom div.middle ul li:last-child {
     color: #000;
     font-size: 70px;
     font-weight: 600;
-}
-#spotlight div.container div.left span {
-    /* border-bottom: 1px solid #539d72; */
+   
 }
 #spotlight div.container div.left h3 {
     color: #000;
@@ -370,7 +350,7 @@ header div.bottom div.middle ul li:last-child {
 #category section.categorys ul li {
 }
 #category section.categorys ul li a {
-    width: 100px;
+    width: 50px;
     display: inline-block;
 }
 #category section.categorys ul li a img {
@@ -808,6 +788,10 @@ header div.bottom div.middle ul li:last-child {
     overflow: hidden;
     margin-right: 10px;
 }
+#testimonial section.content div.main div.bottom div.pic {
+    width: 60px;
+    height: 60px;
+}
 #testimonial section.content div.main div.bottom div.pic img {
     width: 100%;
     display: block;
@@ -1098,4 +1082,32 @@ header div.bottom div.middle ul li:last-child {
 #footer .contant div.right div.payment ul li a img {
     width: 100%;
     display: block;
+}
+
+/* Responsie */
+
+
+
+@media all and (max-width:1280px){
+    #spotlight {
+        padding: 35px;  
+    }
+    #spotlight div.container div.left h2 {
+        font-size: 45px;
+    }
+    #spotlight div.container div.left h3 {
+        font-size: 45px;
+    }
+    #spotlight div.container div.leftleft {
+        width: 85%;
+    }
+    #spotlight div.container div.right div.landing_page img {
+        height: 469px;
+    }
+    #spotlight div.container div.right h1 {
+       
+        font-size: 39px;
+        width: 91%;
+        left: 30px;
+    }
 }
