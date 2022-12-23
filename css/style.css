@@ -1327,5 +1327,52 @@ header div.bottom div.middle ul li:last-child {
     }
 }
 @media all and (max-width:480px){
+    header div.top p {
+       display: none;
+    }
+   #spotlight div.container div.left p {
+    font-size: 12px;
+    }
+    #spotlight div.container div.left h3 {
+        font-size: 26px;
+    }
+    #spotlight div.container div.right {
+        display:none;
+    }
+    #category div.heading div.left h1 {
+        font-size: 16px;
+       
+    }
+    #our_products section.content div.top div.left h2 {
+       font-size: 16px;
+    }
+    #testimonial section.content div.main div.top h4 {
+        font-size: 24px;
+    }
+    #testimonial section.content div.main div.top p {
+        font-size: 13px;
+    }
+    #best_seller section.content div.top div.left h2 {
+        font-size: 13px;
+    }
+    #footer .contant h2 {
+        font-size: 10px;
+    }      
+    #footer .contant a {
+    font-size: 10px;
+    }
+    #footer .contant div.middle div.footer_product {
+        width: 60%;
+    }
+}
+@media all and (max-width:640px){ 
+
+        #category section.categorys ul {
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+        #order .first_order div.left h1 {
+            width: 100%;
+        }
 
 }
