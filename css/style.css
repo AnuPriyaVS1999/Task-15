@@ -242,8 +242,8 @@ header div.bottom div.middle ul li:last-child {
     background-position: center;
     width: 100%;
     background-position-x: 20;
-    background-position-x: -256px;
     background-position-y: 6px;
+    background-position-x: -143px;
     padding-top: 80px;
     padding-left: 50px;
 }
@@ -301,7 +301,7 @@ header div.bottom div.middle ul li:last-child {
 #spotlight div.container div.right div.landing_page img {
     display: block;
     width: 100%;
-    height: 508px;
+    height: 491px;
 }
 #spotlight div.container div.right h1 {
     position: absolute;
