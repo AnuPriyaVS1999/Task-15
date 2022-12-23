@@ -1374,6 +1374,22 @@ header div.bottom div.middle ul li:last-child {
     #order .first_order div.left h1 {
         width: 100%;
     }
+    #spotlight div.container div.leftleft {
+        width: 62%;
+    }
+    #spotlight div.container div.left {
+        background-image: url(../images/Landing-img-1.jpg);
+        /* background-repeat: no-repeat; */
+        /* height: 48vh; */
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        background-position-x: 20;
+        background-position-x: -256px;
+        padding-top: 80px;
+        padding-left: 50px;
+        background-size: 1135px;
+    }
 
 }
 
