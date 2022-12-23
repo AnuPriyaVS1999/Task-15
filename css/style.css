@@ -1110,4 +1110,27 @@ header div.bottom div.middle ul li:last-child {
         width: 91%;
         left: 30px;
     }
+    #brand ul li a {
+        width: 124px;
+    }
+    
+}
+@media all and (max-width:1280px){
+    div.nav_section div.contact div ul li a.one {
+        font-size: 12px;
+    }
+    #spotlight div.container div.left {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    #spotlight div.container div.right h1 {
+        font-size: 25px;
+        width: 80%;
+    }
+    #spotlight div.container div.right div.landing_page img {
+        height: 393px;
+    }
+    #our_products section.content div.top nav.right {
+        width: 50%;
+    }
 }
