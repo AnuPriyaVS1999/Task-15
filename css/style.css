@@ -1367,12 +1367,13 @@ header div.bottom div.middle ul li:last-child {
 }
 @media all and (max-width:640px){ 
 
-        #category section.categorys ul {
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-        }
-        #order .first_order div.left h1 {
-            width: 100%;
-        }
+    #category section.categorys ul {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    #order .first_order div.left h1 {
+        width: 100%;
+    }
 
 }
+
